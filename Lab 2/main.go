@@ -258,7 +258,7 @@ func precedence(op byte) int {
 	return 0
 }
 
-// ИСПРАВЛЕНО: добавлена проверка деления на ноль
+// Проверка деления на ноль
 func applyOp(a, b int, op byte) int {
 	switch op {
 	case '+':
